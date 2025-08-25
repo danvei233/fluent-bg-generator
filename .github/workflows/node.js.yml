@@ -36,4 +36,13 @@ jobs:
         # Path of the directory containing the static assets.
           path: 'dist/'  # default is _site/
           
+    - name: GitHub Pages
+  # You may pin to the exact commit or the version.
+  # uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865
+      uses: crazy-max/ghaction-github-pages@v4.2.0
+      with:
+          build_dir: './dist'
+
+          
+          
 
